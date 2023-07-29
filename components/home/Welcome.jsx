@@ -12,7 +12,7 @@ const Welcome = () => {
   const navigation = useNavigation();
 
   return (
-    <View>
+    <View style={styles.appWrapper}>
       <View style={styles.container}>
         <Text style={styles.welcomeTxt(COLORS.black, SIZES.xSmall)}>
           Find the most

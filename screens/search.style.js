@@ -1,10 +1,7 @@
 import { StyleSheet } from "react-native";
-import { COLORS, SIZES } from "../../constants";
+import { COLORS, SIZES } from "../constants";
 
 const styles = StyleSheet.create({
-  appWrapper: {
-    paddingHorizontal: 12,
-  },
   container: {
     width: "100%",
   },
